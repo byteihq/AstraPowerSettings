@@ -41,7 +41,7 @@ bool Test(const std::string &TestName, const std::string &ExecCommand, const std
 
 int main(int argc, char *argv[]) {
     if (getuid()) {
-        std::cout << "Запустите программу от имени супер пользователя";
+        std::cout << "Запустите программу от имени супер пользователя" << std::endl;
         return -1;
     }
 
