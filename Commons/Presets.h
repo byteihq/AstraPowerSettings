@@ -23,7 +23,7 @@ struct TESTSParams {
     int Duration = 5; // 5 min
 };
 
-#define TLP_INSTALL "sudo apt install tlp -y"
+#define TLP_INSTALL "sudo apt-get install tlp -y"
 #define TLP_INSTALL_OUT "tlp_install_info.txt"
 #define TLP_SET_CONFIG "sudo cp -rfv %s /etc/default/tlp"
 
